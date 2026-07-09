@@ -1,0 +1,19 @@
+% No special emoji handling needed — all characters are in DejaVu Sans
+\usepackage{newunicodechar}
+\newunicodechar{️}{}
+
+% Prevent widowed and orphaned lines
+\widowpenalty=10000
+\clubpenalty=10000
+
+% Force images to appear exactly where they are in the source (no floating)
+\usepackage{float}
+\floatplacement{figure}{H}
+
+% Allow line wrapping in code blocks to prevent overflow
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+
+% Reduce table font size to prevent column overlap
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\small}
