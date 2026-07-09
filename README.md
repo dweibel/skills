@@ -69,4 +69,4 @@ EOF
 
 ## License
 
-Private — personal use only unless otherwise noted per-skill.
+This project is licensed under the [MIT License](LICENSE).
