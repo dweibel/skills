@@ -191,6 +191,26 @@ See the full banned list in `revision-checklist.md`. The fastest way to make a p
 
 Never use em dashes. Replace with commas, parentheses, or separate sentences. Their presence alone marks prose as machine-generated.
 
+## Hazard 18: Awkward Phrasing
+
+**Before**
+
+> Breach blast radius is maximum. System performance degradation is occurring. User authentication flow completion rate is suboptimal.
+
+**After**
+
+> The breach affects the entire system. Performance is degrading. Too many users are failing to log in.
+
+LLMs assemble noun phrases and superlatives without checking whether a human would actually say them. The pattern: stack technical-sounding nouns, drop articles, end with an absolute adjective. The result reads like a telegram written by a thesaurus.
+
+Signs to watch for:
+- Missing articles ("the," "a") before nouns
+- Noun-noun-noun pileups where a verb would work
+- Superlatives and absolutes ("maximum," "optimal," "comprehensive") doing the work of specifics
+- No hedging or qualification where a human would naturally hedge
+
+The fix: read the sentence aloud. If it sounds like something you would say in a meeting, keep it. If it sounds like a status dashboard, rewrite it.
+
 ## Pre-Publish Priority Order
 
 1. Throat-clearing openings (Hazard 1)
