@@ -1,12 +1,12 @@
 ---
 name: technical-writing
 description: >
-  Write clear, well-structured technical prose — essays, design docs, memos, RFCs,
-  blog posts, and emails. Use when the user asks to write, draft, revise, or edit
-  any technical document. Also use when they mention writing style, voice, tone,
-  sentence structure, or ask for feedback on prose quality. Covers outlining,
-  drafting with deliberate sentence rhythm, revision against a strict checklist,
-  and format-specific conventions (essays, memos, emails, blog posts, Slack).
+  Use when the user asks to write, draft, revise, or edit any technical or
+  leadership document: essays, design docs, position papers, memos, RFCs,
+  post-mortems, blog posts, emails, Slack messages, or an address to their own
+  team. Also use when they ask for feedback on prose, or mention writing style,
+  voice, tone, register, sentence structure, or how a passage will land on its
+  readers.
 ---
 
 # Technical Writing
