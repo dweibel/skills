@@ -26,6 +26,7 @@ Architectural composure with pedagogical curiosity. Composure wins when they cla
 
 - Vary paragraph length. Single-sentence paragraphs are effective.
 - Lists should be asymmetric. Match item length to idea weight.
+- Tables reverse that rule: within a column, every cell answers the header's question in the same grammatical shape.
 
 ## Closing
 
@@ -40,6 +41,12 @@ Architectural composure with pedagogical curiosity. Composure wins when they cla
 
 ## Voice Reminders
 
-- Active voice. Concrete nouns over pronouns. Plain verbs.
+- Active voice. Concrete subjects that can act, not abstract noun phrases. Concrete nouns over pronouns. Plain verbs.
+- Nominalizations back to verbs. Cut doublets joined by "and." Compress overwrought parallelism.
 - Vary sentence length sharply. Four-word sentences next to thirty-word sentences.
 - No banned vocabulary. No em dashes. No feigning surprise.
+
+## Revision Order
+
+- Run the checklist, then the style-sheet pass, then re-check every paragraph you changed. Regressions enter in revision.
+- Build the rendered output and read it before delivery.

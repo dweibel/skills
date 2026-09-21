@@ -6,6 +6,7 @@
 2. Each H2 section addresses one discrete question
 3. Dialectical exposition ends with a position, not a fence-sit
 4. Asymmetric paragraphs — vary length deliberately
+4a. Tables are the exception: every cell in a column answers the column header's question in the same grammatical shape
 5. Why before what — name the friction before the mechanism
 6. Closings distill; they never recap
 
@@ -13,7 +14,7 @@
 
 This file covers how to organize a piece — openings, section flow, heading choices, length, cross-linking — and the pedagogical patterns that hold the structure together.
 
-The main guide (`technical-writing-style.md`) tells you how the piece should feel. This file tells you how to lay the piece out for long-form work — essays, deep-dive posts, design documents, architecture references. The structural rules for technical memos, short blog posts, emails, and Slack live in `technical-writing-formats.md`; reach for that file when the format is something other than a long-form essay.
+The main guide (`SKILL.md`) tells you how the piece should feel. This file tells you how to lay the piece out for long-form work — essays, deep-dive posts, design documents, architecture references. The structural rules for position papers, leadership essays, technical memos, short blog posts, emails, and Slack live in `formats.md`; reach for that file when the format is something other than a long-form essay.
 
 ## Openings
 
@@ -83,6 +84,19 @@ What you should not produce: a piece in which every paragraph is three or four s
 The same discipline applies to lists. Generated bullet lists tend to come out symmetrical — three bullets, each two sentences, each starting with a gerund, each carrying roughly equal weight. Real lists are uneven. One item might be a phrase; the next, a full sentence; the next, three sentences because that item has more to say. Match the length of each item to the weight of the idea, not to the shape of the item above it.
 
 A useful check: read the bullet list aloud. If the items sound interchangeable in cadence and weight, the list has been flattened. Rewrite the items so each one is as long as it needs to be — and no longer.
+
+## Tables
+
+Tables are where the asymmetry rule reverses. Bullet lists want uneven items because the items carry uneven weight. Table cells want the opposite: within one column, every cell answers the same question in the same grammatical shape, because the reader scans down a column to compare.
+
+Rules that follow from that:
+
+- The column header is a question. "What God did with it," "Cost per month," "When this option wins." Every cell in that column answers exactly that question and nothing else.
+- Cells in one column share a grammatical form. If one cell is a verb phrase ("Carried evangelists across regions"), all of them are. A cell that answers a different question ("Mass-produced affordable clothing") breaks the scan even when the fact is true; rewrite it to the column's frame ("Slashed binding costs to mass-produce Bibles") or move the fact to prose.
+- Rows are for comparable things. If a row does not fit the columns, the table is the wrong container for that row.
+- Prose after a table should not restate the table. It should draw the conclusion the table supports, in the same grammatical frame the table used, so the two read as one argument.
+
+A useful check: read one column top to bottom as if it were a list. If any item sounds like it belongs in a different list, fix that cell.
 
 ## Cross-Linking
 

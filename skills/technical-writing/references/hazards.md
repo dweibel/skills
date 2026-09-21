@@ -185,7 +185,7 @@ Strip the cheerleading. Name the mechanism and the cost.
 
 ## Hazard 16: Default LLM Vocabulary
 
-See the full banned list in `revision-checklist.md`. The fastest way to make a piece sound less like an LLM: search the draft for those words and delete or replace each one. Every flagged word does zero substantive work.
+See the canonical banned list in `SKILL.md`. The fastest way to make a piece sound less like an LLM: search the draft for those words and delete or replace each one. Every flagged word does zero substantive work.
 
 ## Hazard 17: Em Dashes
 
@@ -211,6 +211,40 @@ Signs to watch for:
 
 The fix: read the sentence aloud. If it sounds like something you would say in a meeting, keep it. If it sounds like a status dashboard, rewrite it.
 
+## Hazard 19: Overwrought Parallelism
+
+**Before**
+
+> Every epoch of progress arrives carrying the same paradox: human capability expands suddenly and powerfully, and human anxiety convulses just as hard.
+
+**After**
+
+> Every epoch carries the same paradox: capability leaps, and fear leaps with it.
+
+Doubled adverbs ("suddenly and powerfully"), stacked abstractions ("epoch of progress," "human capability," "human anxiety"), and a verb chosen for drama ("convulses") are the tells. The claim survives compression to half the words, and the parallelism does the rhetorical work the adverbs were straining to do. This is distinct from Hazard 4: the analogy there fails as teaching; the sentence here fails as prose.
+
+Related tells: nominalizations that hide a verb ("the unchecked spread of unvetted ideas" for "unvetted ideas spread unchecked"), and abstract subjects ("Our presence here is not an accident" for "We are here. That is not an accident").
+
+## Hazard 20: The Line That Lands Wrong on Its Reader
+
+**Before**
+
+> Beck's warning about the middle tier is the one I lose sleep over.
+
+**After**
+
+> Beck's warning about the middle tier is the one I want us to take seriously.
+
+The before sentence is honest, well-shaped, and rhythmically better. It is still wrong for a leader writing to the engineers who make up that tier: it tells them their leader sees them as a risk. Every sentence that describes a group who will read the document needs a second reading from inside that group. The fix is not to soften the claim. It is to state the same claim in a way the reader can act on rather than absorb as a verdict.
+
+The same check applies to verbs. "Co-opts" is accurate and carries a charge of hijacking; applied to a subject the audience reveres, it lands as an insult the writer did not intend.
+
+## Hazard 21: Regressions Introduced During Revision
+
+Every hazard above is checked against the draft. The revision pass then writes new text, and that new text has been through none of the checks. Typical regressions: a banned word in a rewritten clause, a sentence fragment left by a split ("Thus, tempting us to take matters into our own hand."), a capitalization convention broken in an added paragraph.
+
+Diff the revised text against the previous draft and re-run the vocabulary, mechanics, and style-sheet checks on every changed paragraph. Memory of what you changed is not reliable enough to skip the diff.
+
 ## Pre-Publish Priority Order
 
 1. Throat-clearing openings (Hazard 1)
@@ -222,3 +256,6 @@ The fix: read the sentence aloud. If it sounds like something you would say in a
 7. Relentless enthusiasm (Hazard 15)
 8. What without why (Hazard 5)
 9. Closing recap (Hazard 9)
+10. Overwrought parallelism (Hazard 19)
+11. Lines that land wrong on their reader (Hazard 20)
+12. Regressions in revised passages (Hazard 21), run last

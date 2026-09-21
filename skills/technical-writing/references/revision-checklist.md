@@ -8,17 +8,7 @@ Does the first paragraph start in the problem (or, for memos, the recommendation
 
 ## 2. Banned vocabulary
 
-Search for and replace each of these. None should appear in output:
-
-**Thematic metaphors:** delve, tapestry, mosaic, weave, threads (figurative), navigate, landscape, journey, compass, beacon, unlock, unleash, harness (figurative), realm
-
-**Empty intensifiers:** crucial, paramount, imperative, vital, profound, transformative, revolutionary, testament, cornerstone, bedrock, robust, cutting-edge, state-of-the-art
-
-**Mechanical transitions:** furthermore, moreover, additionally, consequently, conversely, that being said, with that said
-
-**Summary fillers:** in conclusion, to summarize, to wrap up, ultimately, at the end of the day, in essence, fundamentally (as filler)
-
-Use plain connectors instead: and, but, so, also, or no transition at all.
+Search for every word in the Banned Vocabulary list in `SKILL.md` and replace each one. That list is canonical; this file does not carry a copy, so the two cannot drift. Use plain connectors instead: and, but, so, also, or no transition at all.
 
 ## 3. Feigning surprise
 
@@ -77,3 +67,33 @@ Tripwire: more than two passives in a single paragraph is a signal to rewrite.
 Vary paragraph length deliberately. A single-sentence paragraph is effective. A four-sentence paragraph is normal. A seven-sentence paragraph is acceptable if doing one continuous piece of work.
 
 Tripwires: a paragraph longer than 6 sentences should probably be split. A page where every paragraph is 3–4 sentences needs variance.
+
+## 16. Nominalizations
+
+Nouns ending in -tion, -ment, -ance, -al that hide a verb: "the unchecked spread of unvetted ideas," "the adoption of the tool." Turn the noun back into its verb with a real subject: "unvetted ideas spread unchecked," "we adopted the tool."
+
+## 17. Doublets
+
+Two near-synonyms joined by "and": "insights and perspectives," "suddenly and powerfully," "care and support." Keep one. If both words are doing distinct work, the sentence usually wants a different structure, not the pair.
+
+## 18. Abstract subjects
+
+Sentences whose grammatical subject is an abstract noun phrase: "Our presence here is not an accident," "Its hope is anchored in control." These pass the passive-voice check and still read as generated. Rewrite with a person or a thing that acts as the subject: "We are here. That is not an accident."
+
+Tripwire: three consecutive sentences with no person or concrete thing as subject.
+
+## 19. Reader impact
+
+For every sentence that describes a group who will read the document, ask how it lands on them, not only whether it is true. "The middle tier is the one I lose sleep over" is honest and lands badly on the engineers in that tier. Rewrite so the reader can hear the point without feeling described as a liability. This check is required for leadership essays and post-mortems.
+
+## 20. Style sheet consistency
+
+Compare the draft against the style sheet from the outlining phase (`assets/style-sheet-template.md`):
+
+- The document names itself one way. Not "this essay" in one place and "this paper" or "this document" in another.
+- Every domain term with a capitalization decision follows it everywhere.
+- Every term with a chosen synonym uses the chosen word, including in headings and captions. "Notes" and "commentary" for the same thing is a drift.
+
+## 21. Re-check changed passages
+
+Text written during revision has not been through this checklist. Regressions enter here, not in the first draft: a banned word in a rewritten clause, a sentence fragment left by a split, a lowercase pronoun where the document capitalizes it. Before delivery, run checks 2, 3, 10, 11, 16, 17, and 18 again on every paragraph you touched in revision. Compare against the previous draft to find them; memory of what you changed is not reliable.

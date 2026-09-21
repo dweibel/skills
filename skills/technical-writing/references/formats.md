@@ -1,8 +1,8 @@
 # Writing Across Formats
 
-The underlying voice is a synthesis, but different formats demand different weightings of it. This file names those weightings and gives the shape each format expects. Read the entry file (`technical-writing-style.md`) first.
+The underlying voice is a synthesis, but different formats demand different weightings of it. This file names those weightings and gives the shape each format expects. Read the entry file (`SKILL.md`) first.
 
-The voice rules (`technical-writing-voice.md`) and the hazards (`technical-writing-hazards.md`) apply across every format. What changes here is structure and register, not the lexical constraints. No format gives you a license for *delve*.
+The voice rules (in `SKILL.md`) and the hazards (`hazards.md`) apply across every format. What changes here is structure and register, not the lexical constraints. No format gives you a license for *delve*.
 
 ## The Default: Long-Form Technical Writing
 
@@ -31,6 +31,22 @@ author: "Author Name"
 **Section headings are claims, not labels.** "Defense in Depth: Why One Layer Is Not Enough" tells the reader the argument before the reader enters the section. "Defense in Depth" alone forces the reader to enter the section to find out what the paper is saying about it.
 
 **The conclusion distills; it does not recap.** Name the trade the reader gets to make, or the position the paper has earned the right to hold. Do not restate the table of contents.
+
+## Leadership Essays and Addresses to Your Own Team
+
+A leader writing to the people they lead: a position piece on how the team will adopt a technology, a letter framing a reorganization, an essay that pairs outside expert material with the leader's own commentary. The form is long-form, and the structure file applies. What changes is that the audience is also the subject.
+
+**The reader-impact pass is required, not optional.** Every sentence that describes a group who will read the document gets a second reading from inside that group. A line can be honest, well-shaped, and still tell a reader that their leader sees them as a liability. Restate the claim so the reader can act on it. See Hazard 20.
+
+**Check the connotation of every verb applied to the audience, or to people and subjects the audience holds in high regard.** "Co-opts" and "turns to its purpose" describe the same act; only one of them lands as intended in front of readers who revere the subject.
+
+**Measured first person.** "I" is welcome and expected; the reader wants to know where the leader stands. Enthusiasm and alarm both read as pressure from a leader in a way they do not from a peer. State the position, state the reasoning, and let the reader weigh it.
+
+**Separate the borrowed voice from your own.** When the piece pairs outside material (expert quotations, a published report) with the leader's commentary, mark the boundary visibly and consistently: a labeled box, a consistent heading, a typographic shift. The reader must never wonder whose claim they are reading. Name the commentary one way in the style sheet and use that name everywhere; "notes" in one place and "commentary" in another is a drift.
+
+**Quoting a shared canon.** When the audience shares a canon (scripture, a founding document, a well-known engineering text), paraphrases should stay close enough to the source wording that readers who know it recognize it. A loose paraphrase reads as either a misquote or a claim the writer is trying to pass off as their own.
+
+**Build the style sheet before drafting.** These pieces accumulate domain terms with capitalization decisions and self-references ("this essay," "this paper," "this letter") faster than any other format. Fill in `assets/style-sheet-template.md` first.
 
 ## Technical Memos and RFCs
 
