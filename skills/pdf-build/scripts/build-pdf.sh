@@ -9,8 +9,17 @@ set -e
 # Resolve the directory where this script lives (for locating filter and header)
 SCRIPT_DIR="$(dirname "$(readlink -f "$0")")"
 
-# Ensure TinyTeX is on PATH
-export PATH="$HOME/.TinyTeX/bin/x86_64-linux:$PATH"
+# Ensure TinyTeX is on PATH. Linux installs to ~/.TinyTeX, macOS to ~/Library/TinyTeX;
+# the platform directory under bin/ differs too, so glob for it.
+if ! command -v xelatex >/dev/null 2>&1; then
+  for d in "$HOME/.TinyTeX/bin"/* "$HOME/Library/TinyTeX/bin"/*; do
+    [ -x "$d/xelatex" ] && export PATH="$d:$PATH" && break
+  done
+fi
+if ! command -v xelatex >/dev/null 2>&1; then
+  echo "Error: xelatex not found. Install TinyTeX (see references/troubleshooting.md) or add it to PATH." >&2
+  exit 1
+fi
 
 # --- Argument parsing ---
 if [ $# -eq 0 ]; then

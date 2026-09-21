@@ -1,0 +1,4 @@
+# Normalize line endings: store LF in the repo and check out LF on every platform.
+# Files were being committed with CRLF from a Windows host and re-saved as LF on
+# macOS, turning small edits into whole-file diffs.
+* text=auto eol=lf

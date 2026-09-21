@@ -111,24 +111,24 @@ bash scripts/render-diagrams.sh path/to/diagrams/
 
 ## Environment Requirements
 
-| Dependency | Purpose | Install |
-|---|---|---|
-| Pandoc | Markdown → LaTeX conversion | `apt install pandoc` or from pandoc.org |
-| TinyTeX | XeLaTeX engine | See `references/troubleshooting.md` |
-| DejaVu fonts | Unicode coverage | `sudo apt install fonts-dejavu` |
-| PyMuPDF | QA overlap detection | `pip install PyMuPDF` |
-| Node.js | Mermaid diagram rendering | `nvm install --lts` or `apt install nodejs` |
+| Dependency | Purpose | Linux | macOS |
+|---|---|---|---|
+| Pandoc 3.x | Markdown → LaTeX conversion | `apt install pandoc` | `brew install pandoc` |
+| TinyTeX | XeLaTeX engine | see `references/troubleshooting.md` | same; installs under `~/Library/TinyTeX` |
+| DejaVu fonts | Unicode coverage | `sudo apt install fonts-dejavu` | must be in `~/Library/Fonts`; see troubleshooting |
+| PyMuPDF | QA overlap detection | `pip install PyMuPDF` | same, in a venv |
+| Node.js | Mermaid diagram rendering | `nvm install --lts` | same; `node` must be on PATH when the build runs |
 
-TinyTeX must be on PATH:
-```bash
-export PATH="$HOME/.TinyTeX/bin/x86_64-linux:$PATH"
-```
+The build script finds TinyTeX on its own when it is installed in the default location on either platform (`~/.TinyTeX/bin/*` on Linux, `~/Library/TinyTeX/bin/*` on macOS). If it is elsewhere, put its `bin` directory on PATH before building.
 
-Required LaTeX packages:
+Required LaTeX packages. Pandoc 3.x's default template needs more than the four this pipeline adds; install the whole set once:
 ```bash
-tlmgr install fvextra float etoolbox newunicodechar
+tlmgr install fvextra float etoolbox newunicodechar framed footnotehyper bookmark xcolor \
+  geometry ulem unicode-math setspace fancyvrb listings titling lm amsmath parskip \
+  microtype caption xurl selnolig upquote lineno tex-gyre booktabs dejavu
 ```
+If `tlmgr` cannot reach its repository, see "tlmgr cannot download" in the troubleshooting reference.
 
 ## Troubleshooting
 
-See `references/troubleshooting.md` for common failure scenarios (missing fonts, missing LaTeX packages, Mermaid unavailability, Unicode issues, emoji substitution).
+See `references/troubleshooting.md` for common failure scenarios (missing fonts, missing LaTeX packages, blocked package downloads, macOS font registration, Mermaid unavailability, Unicode issues, emoji substitution).
