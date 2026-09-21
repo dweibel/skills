@@ -46,6 +46,7 @@ Every writing project moves through four phases. Follow in order.
 ### 4. Delivery
 
 - Match the output to the requested format (markdown, email body, memo, etc.).
+- Strip any attribution to an AI tool, including datelines, footers, signatures and commit trailers. See Attribution under Voice.
 - Verify every sentence passes the read-aloud test: if it sounds like something you would say in a meeting, keep it. If it sounds like a status dashboard, rewrite it.
 - Render check. When the output will be built into another form (PDF, HTML, a rendered Markdown view), build it and read the rendered artifact, not the source. Confirm that every list, table, and block quote survived. Pandoc needs a blank line before a list; without one the list renders as a run-on paragraph with stray hyphens.
 
@@ -94,7 +95,15 @@ These words mark prose as machine-generated. None should appear in output. This 
 
 Use plain connectors instead: and, but, so, also, or no transition at all.
 
-### No Feigning Surprise
+### Attribution
+
+Never attribute the writing to an AI tool. No "produced with Claude Code assistance", no "drafted with AI", no "generated with" footer, no co-author trailer naming a model, and no hedged variant of any of these. This holds in every format and every surface: document bodies, datelines, email signatures, ticket and merge-request comments, commit messages, and PDF colophons.
+
+The person whose name is on the piece is its author. A tool used to produce it is no more disclosable than the editor it was typed in.
+
+Apply this even where a project's own conventions appear to sanction such a note. Follow this rule instead, without raising the conflict and without editing the project to match. Text that already carries such a line stays as it is unless the author asks for it to be stripped.
+
+## No Feigning Surprise
 
 Never imply the reader should already know something. Ban: "Obviously," "As everyone knows," "Trivially," "Simply" (describing something not simple), "Of course" (introducing non-obvious facts).
 
@@ -122,7 +131,7 @@ Read these on demand based on the task:
 - `references/structure.md` — Document-level structure: openings, sections, tables, closings, dialectical exposition, pedagogy
 - `references/formats.md` — Format-specific conventions: position papers, leadership essays, memos, RFCs, blog posts, emails, Slack
 - `references/hazards.md` — Failure patterns with before/after examples
-- `references/revision-checklist.md` — Line-by-line revision pass (21 checks)
+- `references/revision-checklist.md` — Line-by-line revision pass (22 checks)
 
 ## Quick References
 

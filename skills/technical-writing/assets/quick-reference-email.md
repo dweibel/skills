@@ -46,3 +46,4 @@ If the body grows beyond a few paragraphs (proposal, status update, post-mortem)
 - Active voice throughout. Cut filler: just, actually, very, basically.
 - Plain English: use not utilize, start not initiate, help not facilitate.
 - No banned vocabulary. No em dashes.
+- Never credit an AI tool. No "produced with Claude Code assistance", no "generated with" footer, no model co-author trailer. Check datelines, signatures and footers.

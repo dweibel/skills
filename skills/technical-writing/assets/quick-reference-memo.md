@@ -26,4 +26,5 @@ Organizational clarity template. Composed, curious voice inside.
 
 - Active voice. Plain verbs. No banned vocabulary.
 - No em dashes. No feigning surprise. No fence-sitting.
+- Never credit an AI tool. No "produced with Claude Code assistance", no "generated with" footer, no model co-author trailer. Check datelines, signatures and footers.
 - Take a position. Name the threshold where it flips.

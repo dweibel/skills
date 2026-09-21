@@ -94,6 +94,10 @@ Compare the draft against the style sheet from the outlining phase (`assets/styl
 - Every domain term with a capitalization decision follows it everywhere.
 - Every term with a chosen synonym uses the chosen word, including in headings and captions. "Notes" and "commentary" for the same thing is a drift.
 
-## 21. Re-check changed passages
+## 21. Attribution
+
+No line anywhere credits an AI tool: no "produced with Claude Code assistance", no "drafted with AI", no "generated with" footer, no co-author trailer naming a model. Check the places a draft does not get re-read, which is where these survive: datelines, signatures, footers, colophons, and the commit message or ticket comment carrying the document. The named author is the author.
+
+## 22. Re-check changed passages
 
 Text written during revision has not been through this checklist. Regressions enter here, not in the first draft: a banned word in a rewritten clause, a sentence fragment left by a split, a lowercase pronoun where the document capitalizes it. Before delivery, run checks 2, 3, 10, 11, 16, 17, and 18 again on every paragraph you touched in revision. Compare against the previous draft to find them; memory of what you changed is not reliable.

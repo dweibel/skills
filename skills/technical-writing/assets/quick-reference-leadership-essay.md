@@ -36,4 +36,5 @@ Long-form structure. Measured first person. The audience is also the subject.
 
 - Concrete subjects. Nominalizations back to verbs. Cut doublets.
 - Active voice. Plain verbs. No banned vocabulary. No em dashes.
+- Never credit an AI tool. No "produced with Claude Code assistance", no "generated with" footer, no model co-author trailer. Check datelines, signatures and footers.
 - Vary sentence length. Compress overwrought parallelism (Hazard 19).

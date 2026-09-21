@@ -24,6 +24,7 @@ A small concrete thing → what surprised me → how I figured out what was happ
 ## What Still Applies
 
 - No banned vocabulary. No em dashes.
+- Never credit an AI tool. No "produced with Claude Code assistance", no "generated with" footer, no model co-author trailer. Check datelines, signatures and footers.
 - No feigning surprise. No relentless enthusiasm.
 - Active voice. Plain verbs.
 - Vary sentence length.

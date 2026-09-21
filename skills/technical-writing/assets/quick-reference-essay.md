@@ -45,6 +45,7 @@ Architectural composure with pedagogical curiosity. Composure wins when they cla
 - Nominalizations back to verbs. Cut doublets joined by "and." Compress overwrought parallelism.
 - Vary sentence length sharply. Four-word sentences next to thirty-word sentences.
 - No banned vocabulary. No em dashes. No feigning surprise.
+- Never credit an AI tool. No "produced with Claude Code assistance", no "generated with" footer, no model co-author trailer. Check datelines, signatures and footers.
 
 ## Revision Order
 
