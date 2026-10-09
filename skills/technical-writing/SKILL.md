@@ -31,6 +31,7 @@ Every writing project moves through four phases. Follow in order.
   - **Long-form essays, design docs, deep-dives:** read `references/structure.md`
   - **Memos, RFCs, emails, blog posts:** read `references/formats.md`
   - **Design docs:** read both (structure for exposition, formats for framing)
+  - **Anything publishing to Confluence:** also read `references/confluence.md` before drafting a diagram
   - **Leadership essays, position papers, addresses to your own team:** read both, and the leadership section of `references/formats.md` in particular
 - For a condensed view, consult `assets/quick-reference-<format>.md`.
 - Keep sections focused. Split anything beyond ~1,500 words.
@@ -48,7 +49,7 @@ Every writing project moves through four phases. Follow in order.
 - Match the output to the requested format (markdown, email body, memo, etc.).
 - Strip any attribution to an AI tool, including datelines, footers, signatures and commit trailers. See Attribution under Voice.
 - Verify every sentence passes the read-aloud test: if it sounds like something you would say in a meeting, keep it. If it sounds like a status dashboard, rewrite it.
-- Render check. When the output will be built into another form (PDF, HTML, a rendered Markdown view), build it and read the rendered artifact, not the source. Confirm that every list, table, and block quote survived. Pandoc needs a blank line before a list; without one the list renders as a run-on paragraph with stray hyphens.
+- Render check. When the output will be built into another form (PDF, HTML, a rendered Markdown view, a Confluence page), build it and read the rendered artifact, not the source. Confirm that every list, table, block quote, and diagram survived. Pandoc needs a blank line before a list; without one the list renders as a run-on paragraph with stray hyphens. Confluence renders no Mermaid at all, so a fenced diagram arrives as its own source code: see `references/confluence.md`.
 
 ## Voice
 
@@ -132,6 +133,7 @@ Read these on demand based on the task:
 - `references/formats.md` — Format-specific conventions: position papers, leadership essays, memos, RFCs, blog posts, emails, Slack
 - `references/hazards.md` — Failure patterns with before/after examples
 - `references/revision-checklist.md` — Line-by-line revision pass (22 checks)
+- `references/confluence.md` — Publishing to Confluence: Mermaid diagrams as image plus collapsed source, attachment upload, and what else changes between Markdown and a page
 
 ## Quick References
 
